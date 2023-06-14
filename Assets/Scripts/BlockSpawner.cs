@@ -16,8 +16,8 @@ public class BlockSpawner : MonoBehaviour
 
     private void Update()
     {
-        //if (SpawnBlock) SpawnNewBlock();
-        if (Input.GetKeyDown(KeyCode.S)) SpawnNewBlock();
+        if (SpawnBlock) SpawnNewBlock();
+        //if (Input.GetKeyDown(KeyCode.S)) SpawnNewBlock();
     }
 
 
